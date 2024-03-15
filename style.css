@@ -1,0 +1,42 @@
+body{
+    /*  Margin de fora para dentro
+        padding de dentro para fora  */
+    margin: 0;
+    padding: 0;
+
+    font-family: Verdana;
+    background-color: black;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.header{
+
+    /* border-bottom cria meio que uma linha na delimitação */
+    border-bottom: 3px solid #32b9cd;
+
+}
+
+.titulo{
+    color: #32b9cd;
+    font-weight: 500;
+}
+
+.navbar{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    color: #e3b062;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
