@@ -5,7 +5,7 @@ body{
     padding: 0;
 
     font-family: Verdana;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 .container{
@@ -18,7 +18,7 @@ body{
 
     /* border-bottom cria meio que uma linha na delimitação */
     border-bottom: 3px solid #32b9cd;
-
+    background-color: black;
 }
 
 .titulo{
@@ -40,3 +40,73 @@ body{
     justify-content: space-between;
 }
 
+
+.banner{
+    background-image: url(imagens/bg-jelly-fish-para_outras_pags.png);
+    width: 100%;
+    height: 500px;
+    color: white;
+
+    display: flex;
+    
+}
+
+.banner-title{
+    margin: 0;
+    font-size: 35px;
+
+}
+
+.banner .container{
+    width: 10%;
+    justify-content: flex-end;
+
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+
+    padding: 5%;
+    gap: 25px;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+
+    justify-content: space-evenly;
+
+}
+.card h2{
+    color: #eb3333;
+
+}
+
+.card{
+    flex-direction: row;
+    
+
+}
+
+
+.footer{
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 1%;
+
+    width: 100%;
+    height: 100px;
+
+    background-color: #32b9cd;
+
+}
+
+.footer p{
+    margin: 0;
+    color: white;
+}
